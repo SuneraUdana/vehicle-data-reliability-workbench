@@ -1,0 +1,230 @@
+VEHICLE DATA EDA REPORT
+======================================================================
+Rows: 9770
+Columns: 16
+
+TOP BRANDS
+----------------------------------------------------------------------
+brand
+TOYOTA           3085
+SUZUKI           2465
+NISSAN           1247
+HONDA             680
+MITSUBISHI        284
+PERODUA           256
+MICRO             244
+HYUNDAI           188
+MAZDA             181
+MERCEDES-BENZ     168
+TATA              115
+KIA               113
+DAIHATSU           88
+BMW                79
+RENAULT            58
+AUDI               56
+PEUGEOT            55
+CHERY              44
+FORD               43
+CHEVROLET          38
+
+TOP MODELS
+----------------------------------------------------------------------
+model
+ALTO                 388
+VITZ                 366
+WAGON R STINGRAY     281
+MARUTI               227
+WAGON R              204
+VIVA ELITE           168
+AQUA                 167
+SWIFT                158
+AXIO                 148
+FB15                 122
+ALTO JAPAN           117
+PREMIO G SUPERIOR    112
+PANDA                110
+PREMIO               109
+PRIUS                106
+WAGON R FZ           101
+FIT GP5               90
+FIT GP1               84
+FB14                  72
+PASSO                 67
+ALLION                64
+ALTO 800              63
+MARUTI 800            63
+ACCENT                60
+BELTA                 59
+LANCER BOX            58
+SPACIA                58
+CELERIO               56
+CARINA                56
+COROLLA 121           55
+
+PRICE SUMMARY
+----------------------------------------------------------------------
+count    9770.000000
+mean       53.452891
+std        43.586343
+min         2.650000
+25%        26.250000
+50%        43.000000
+75%        69.750000
+max       790.000000
+
+MILEAGE SUMMARY
+----------------------------------------------------------------------
+count      9770.000000
+mean     200730.296827
+std      108164.208455
+min       11000.000000
+25%      110000.000000
+50%      176000.000000
+75%      264000.000000
+max      759000.000000
+
+YEAR SUMMARY
+----------------------------------------------------------------------
+count    9770.000000
+mean     2006.751791
+std         9.833110
+min      1956.000000
+25%      2001.000000
+50%      2009.000000
+75%      2015.000000
+max      2024.000000
+
+MODEL/YEAR GROUP COUNTS
+----------------------------------------------------------------------
+  brand            model  year_of_manufacture  listing_count
+ SUZUKI             ALTO                 2015            161
+ SUZUKI WAGON R STINGRAY                 2018            130
+ TOYOTA             VITZ                 2007             75
+PERODUA       VIVA ELITE                 2011             72
+ TOYOTA             VITZ                 2008             56
+ TOYOTA             VITZ                 2016             56
+ TOYOTA             AQUA                 2013             53
+ SUZUKI WAGON R STINGRAY                 2017             49
+ SUZUKI           MARUTI                 2006             47
+  HONDA          FIT GP5                 2014             47
+ SUZUKI          WAGON R                 2018             47
+ SUZUKI          WAGON R                 2017             46
+ SUZUKI WAGON R STINGRAY                 2015             46
+ TOYOTA             AQUA                 2012             45
+ SUZUKI             ALTO                 2011             42
+ SUZUKI WAGON R STINGRAY                 2014             40
+PERODUA       VIVA ELITE                 2012             39
+ SUZUKI            SWIFT                 2003             38
+ SUZUKI           MARUTI                 2011             37
+  HONDA          FIT GP1                 2012             37
+ TOYOTA             VITZ                 2018             36
+RENAULT             KWID                 2016             35
+ SUZUKI            SWIFT                 2004             35
+ TOYOTA             AXIO                 2015             35
+ TOYOTA             AQUA                 2014             34
+  MICRO            PANDA                 2015             33
+ SUZUKI         ALTO 800                 2015             33
+ SUZUKI       WAGON R FZ                 2018             32
+ TOYOTA             AXIO                 2007             32
+ SUZUKI       WAGON R FZ                 2014             31
+ SUZUKI          WAGON R                 2014             29
+PERODUA       VIVA ELITE                 2010             28
+ TOYOTA             VITZ                 2015             28
+ SUZUKI       ALTO JAPAN                 2017             27
+ SUZUKI       WAGON R FX                 2017             27
+ SUZUKI          CELERIO                 2015             26
+ SUZUKI             ALTO                 2016             26
+ SUZUKI           A-STAR                 2011             26
+ NISSAN             FB15                 2000             26
+ SUZUKI          WAGON R                 2016             26
+ TOYOTA      COROLLA 141                 2008             26
+ SUZUKI       WAGON R FZ                 2017             25
+ TOYOTA             VITZ                 2010             25
+ TOYOTA             VITZ                 2017             25
+ TOYOTA             AQUA                 2015             25
+ SUZUKI           ESTILO                 2010             25
+ SUZUKI           MARUTI                 2007             25
+ NISSAN             FB15                 2003             25
+ SUZUKI             ALTO                 2012             24
+ SUZUKI         ALTO LXI                 2015             24
+
+POSSIBLE NUMERIC EXTREMES
+----------------------------------------------------------------------
+
+Lowest price:
+     brand          model  year_of_manufacture  price
+    TOYOTA           KE50                 1980   2.65
+MITSUBISHI           COLT                 1979   3.25
+MITSUBISHI         GALANT                 1975   3.40
+    NISSAN           B310                 1979   3.65
+MITSUBISHI         LANCER                 1983   3.75
+    TOYOTA      LADA RIVA                 1986   3.75
+MITSUBISHI   LANCER WAGON                 1978   3.88
+     ISUZU         GEMINI                 1988   3.90
+     MAZDA          MAZDA                 1993   4.00
+    NISSAN B11 CALIFORNIA                 1986   4.00
+
+Highest price:
+        brand                model  year_of_manufacture  price
+       TOYOTA          LEXUS 600HL                 2011  790.0
+          BMW        740LE M SPORT                 2016  575.0
+MERCEDES-BENZ S400 LONG WHEEL BASE                 2015  550.0
+         AUDI                   Q4                 2024  475.0
+          BMW         530I M SPORT                 2017  460.0
+          BMW      430I GRAN COUPE                 2017  450.0
+          BMW              M SPORT                 2018  425.0
+MERCEDES-BENZ                 E200                 2016  405.0
+          BYD                 SEAL                 2024  394.5
+          BMW             G30 530I                 2017  380.0
+
+Lowest mileage_km:
+   brand             model  year_of_manufacture  mileage_km
+    AUDI                Q4                 2024     11000.0
+     BYD              SEAL                 2024     11000.0
+ CITROEN              E-C4                 2024     11000.0
+DAIHATSU              MIRA                 2024     11000.0
+   HONDA           FIT GP5                 2024     11000.0
+ HYUNDAI         GRAND I10                 2024     11000.0
+ HYUNDAI         GRAND I10                 2024     11000.0
+     JAC            T9 4X4                 2024     11000.0
+  NISSAN FB15 SUPER SALOON                 2024     11000.0
+  PROTON              SAGA                 2024     11000.0
+
+Highest mileage_km:
+  brand       model  year_of_manufacture  mileage_km
+PEUGEOT         203                 1956    759000.0
+ MORRIS       MINOR                 1959    726000.0
+ AUSTIN   CAMBRIDGE                 1960    715000.0
+ AUSTIN        MINI                 1960    715000.0
+ AUSTIN MINI COOPER                 1960    715000.0
+   MINI      COOPER                 1960    715000.0
+   MINI      COOPER                 1960    715000.0
+   MINI      COOPER                 1960    715000.0
+   MINI      COOPER                 1960    715000.0
+ MORRIS MINI COOPER                 1960    715000.0
+
+Lowest engine_cc:
+ brand           model  year_of_manufacture  engine_cc
+ TESLA         MODEL 3                 2024      573.0
+SUZUKI      ALTO JAPAN                 2017      600.0
+SUZUKI      ALTO JAPAN                 2016      600.0
+SUZUKI      ALTO JAPAN                 2004      600.0
+SUZUKI      ALTO JAPAN                 2016      600.0
+SUZUKI      ALTO JAPAN                 2003      600.0
+SUZUKI      ALTO JAPAN                 2017      600.0
+SUZUKI         HUSTLER                 2017      600.0
+SUZUKI          MARUTI                 2011      600.0
+SUZUKI SPACIA CUSTOM Z                 2018      600.0
+
+Highest engine_cc:
+        brand                model  year_of_manufacture  engine_cc
+       TOYOTA          LEXUS 600HL                 2007     4800.0
+          BMW              M5 4400                 2012     4400.0
+MERCEDES-BENZ            S350 W220                 2004     3750.0
+MERCEDES-BENZ S400 LONG WHEEL BASE                 2015     3500.0
+       TOYOTA                CROWN                 2008     3500.0
+MERCEDES-BENZ                 S320                 2001     3200.0
+MERCEDES-BENZ           W210 E 320                 1998     3200.0
+       NISSAN    CEDRIC GLORIA Y34                 1999     3200.0
+         AUDI                  A8L                 2013     3000.0
+         AUDI                  A8L                 2013     3000.0
