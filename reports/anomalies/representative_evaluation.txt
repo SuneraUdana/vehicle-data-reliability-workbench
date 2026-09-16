@@ -1,0 +1,20 @@
+REPRESENTATIVE SAMPLE EVALUATION
+============================================================
+Evaluated rows: 94
+Positive labels: probably_anomaly, confirmed_anomaly, data_error
+
+baseline
+------------------------------------------------------------
+{'tp': 4, 'fp': 5, 'tn': 79, 'fn': 6, 'precision': 0.444, 'recall': 0.4, 'f1': 0.421}
+
+15_percent
+------------------------------------------------------------
+{'tp': 1, 'fp': 0, 'tn': 84, 'fn': 9, 'precision': 1.0, 'recall': 0.1, 'f1': 0.182}
+
+20_percent
+------------------------------------------------------------
+{'tp': 0, 'fp': 0, 'tn': 84, 'fn': 10, 'precision': None, 'recall': 0.0, 'f1': None}
+
+30_percent
+------------------------------------------------------------
+{'tp': 0, 'fp': 0, 'tn': 84, 'fn': 10, 'precision': None, 'recall': 0.0, 'f1': None}

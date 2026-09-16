@@ -1,0 +1,5 @@
+detector,flagged_count,eligible_count,flag_rate_percent
+flag_baseline,697,5613,12.42
+flag_iqr_and_15pct,118,5613,2.1
+flag_iqr_and_20pct,86,5613,1.53
+flag_iqr_and_30pct,62,5613,1.1
