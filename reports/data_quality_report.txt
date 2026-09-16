@@ -1,0 +1,123 @@
+DATA QUALITY REPORT
+============================================================
+File: data/raw/car_price_dataset.csv
+Rows: 9788
+Columns: 17
+
+COLUMN INFORMATION
+------------------------------------------------------------
+Unnamed: 0 | type=int64 | missing=0 (0.00%) | unique=9788
+Brand | type=object | missing=0 (0.00%) | unique=50
+Model | type=object | missing=0 (0.00%) | unique=1555
+YOM | type=int64 | missing=0 (0.00%) | unique=62
+Engine (cc) | type=float64 | missing=0 (0.00%) | unique=278
+Gear | type=object | missing=0 (0.00%) | unique=2
+Fuel Type | type=object | missing=0 (0.00%) | unique=4
+Millage(KM) | type=float64 | missing=0 (0.00%) | unique=62
+Town | type=object | missing=0 (0.00%) | unique=107
+Date | type=object | missing=0 (0.00%) | unique=65
+Leasing | type=object | missing=0 (0.00%) | unique=2
+Condition | type=object | missing=0 (0.00%) | unique=2
+AIR CONDITION | type=object | missing=0 (0.00%) | unique=2
+POWER STEERING | type=object | missing=0 (0.00%) | unique=2
+POWER MIRROR | type=object | missing=0 (0.00%) | unique=2
+POWER WINDOW | type=object | missing=0 (0.00%) | unique=2
+Price | type=float64 | missing=0 (0.00%) | unique=1690
+
+DUPLICATES
+------------------------------------------------------------
+Duplicate rows: 0
+
+NUMERIC SUMMARY
+------------------------------------------------------------
+              count           mean            std       min        25%       50%        75%       max
+Unnamed: 0   9788.0    4893.758991    2826.028988      0.00    2446.75    4893.5    7341.25    9788.0
+YOM          9788.0    2006.759093       9.831574   1956.00    2001.00    2009.0    2015.00    2024.0
+Engine (cc)  9788.0    1260.442358     403.769059    573.00    1000.00    1300.0    1500.00    4800.0
+Millage(KM)  9788.0  200649.979567  108147.314860  11000.00  110000.00  176000.0  264000.00  759000.0
+Price        9788.0      53.464275      43.625049      2.65      26.25      43.0      69.75     790.0
+
+CATEGORICAL VALUE SAMPLES
+------------------------------------------------------------
+
+Brand:
+TOYOTA           3089
+SUZUKI           2473
+NISSAN           1248
+HONDA             681
+MITSUBISHI        284
+PERODUA           257
+MICRO             244
+HYUNDAI           189
+MAZDA             181
+MERCEDES-BENZ     168
+
+Model:
+ALTO                392
+VITZ                366
+WAGON R STINGRAY    282
+MARUTI              229
+WAGON R             204
+VIVA ELITE          169
+AQUA                167
+SWIFT               158
+AXIO                148
+FB15                123
+
+Gear:
+Automatic    6305
+Manual       3483
+
+Fuel Type:
+Petrol      7866
+Hybrid      1239
+Diesel       614
+Electric      69
+
+Town:
+Colombo        1038
+Gampaha         657
+Kurunegala      646
+Kandy           637
+Matara          319
+Malabe          273
+Galle           253
+Kadawatha       235
+Negombo         228
+Anuradapura     213
+
+Date:
+2025-02-05    645
+2025-02-04    532
+2025-02-03    457
+2025-02-01    407
+2025-02-02    391
+2025-01-31    344
+2025-01-28    213
+2025-01-30    211
+2025-01-29    204
+2025-01-25    201
+
+Leasing:
+No Leasing       9384
+Ongoing Lease     404
+
+Condition:
+USED    9694
+NEW       94
+
+AIR CONDITION:
+Available        9590
+Not_Available     198
+
+POWER STEERING:
+Available        8918
+Not_Available     870
+
+POWER MIRROR:
+Available        7281
+Not_Available    2507
+
+POWER WINDOW:
+Available        8003
+Not_Available    1785

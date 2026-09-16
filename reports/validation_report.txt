@@ -1,0 +1,81 @@
+[PASS] No duplicate rows: 0 duplicate rows
+[PASS] Positive prices: 0 rows have zero or negative price
+[PASS] Non-negative mileage: 0 rows have negative mileage
+[PASS] Plausible manufacturing years: minimum=1956, maximum=2024
+[PASS] Plausible engine sizes: minimum=573.0, maximum=4800.0
+[PASS] Plausible mileage: minimum=11000.0, maximum=759000.0
+
+PRICE DISTRIBUTION
+1st percentile: 6.23
+Median: 43.00
+99th percentile: 225.00
+
+TOP BRANDS
+TOYOTA           3085
+SUZUKI           2465
+NISSAN           1247
+HONDA             680
+MITSUBISHI        284
+PERODUA           256
+MICRO             244
+HYUNDAI           188
+MAZDA             181
+MERCEDES-BENZ     168
+TATA              115
+KIA               113
+DAIHATSU           88
+BMW                79
+RENAULT            58
+
+TOP MODELS
+ALTO                 388
+VITZ                 366
+WAGON R STINGRAY     281
+MARUTI               227
+WAGON R              204
+VIVA ELITE           168
+AQUA                 167
+SWIFT                158
+AXIO                 148
+FB15                 122
+ALTO JAPAN           117
+PREMIO G SUPERIOR    112
+PANDA                110
+PREMIO               109
+PRIUS                106
+
+CATEGORY VALUES
+
+transmission:
+AUTOMATIC    6297
+MANUAL       3473
+
+fuel_type:
+PETROL      7850
+HYBRID      1237
+DIESEL       614
+ELECTRIC      69
+
+condition:
+USED    9676
+NEW       94
+
+leasing:
+NO LEASING       9366
+ONGOING LEASE     404
+
+air_conditioning:
+AVAILABLE        9572
+NOT_AVAILABLE     198
+
+power_steering:
+AVAILABLE        8902
+NOT_AVAILABLE     868
+
+power_mirror:
+AVAILABLE        7269
+NOT_AVAILABLE    2501
+
+power_window:
+AVAILABLE        7989
+NOT_AVAILABLE    1781
