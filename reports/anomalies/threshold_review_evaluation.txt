@@ -1,0 +1,21 @@
+TARGETED THRESHOLD EVALUATION
+============================================================
+Evaluated rows: 116
+Excluded insufficient-evidence rows.
+Positive labels: confirmed_anomaly, probably_anomaly, data_error
+
+baseline
+------------------------------------------------------------
+{'tp': 86, 'fp': 5, 'tn': 24, 'fn': 1, 'precision': 0.945, 'recall': 0.989, 'f1': 0.966}
+
+15_percent
+------------------------------------------------------------
+{'tp': 86, 'fp': 0, 'tn': 29, 'fn': 1, 'precision': 1.0, 'recall': 0.989, 'f1': 0.994}
+
+20_percent
+------------------------------------------------------------
+{'tp': 77, 'fp': 0, 'tn': 29, 'fn': 10, 'precision': 1.0, 'recall': 0.885, 'f1': 0.939}
+
+30_percent
+------------------------------------------------------------
+{'tp': 62, 'fp': 0, 'tn': 29, 'fn': 25, 'precision': 1.0, 'recall': 0.713, 'f1': 0.832}
