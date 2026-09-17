@@ -51,3 +51,12 @@ The chosen operating rule is:
   The rule remains provisional until a larger independent review is completed.
 
 The system is an investigation-support tool. It does not prove fraud.
+
+## Milestone 6: stratified validation sample
+
+The next validation sample combines flagged and unflagged listings so that
+precision and recall can be estimated together. It includes 50 top-ranked,
+25 middle-ranked, and 25 lower-ranked alerts, plus 50 unflagged listings from
+high-quality reference groups, 25 from medium-quality groups, and 25 random
+unflagged records. Manual review labels are required before calculating
+validation metrics.
