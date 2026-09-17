@@ -1,0 +1,10 @@
+ANALYST REVIEW EVALUATION
+============================================================
+Scope: precision among top-100 ranked alerts
+Reviewed rows: 100
+Excluded insufficient-evidence rows: 17
+Useful reviewed alerts: 79
+Appears-normal alerts: 4
+Precision among evaluable alerts: 0.952
+
+Recall is not estimated because this file contains no unflagged listings.
