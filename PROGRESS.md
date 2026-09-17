@@ -82,3 +82,16 @@ Current milestone findings:
 - Recall remains unmeasured for the top-100 alert-only review.
 - The 200-row stratified validation sample contains 100 flagged and 100
   unflagged listings and requires manual labels before evaluation.
+
+## Stage 4: plausibility API
+
+Added `app/api.py` with:
+
+- `GET /health` for service readiness.
+- `POST /v1/plausibility` accepting brand, model, year, price, and optional
+  mileage.
+- IQR-based comparable-price status: `appears_plausible`,
+  `potential_anomaly`, or `insufficient_evidence`.
+- Auditable group count, expected range, deviation, and explanation fields.
+
+The API is a rule-based plausibility service; it does not make fraud claims.
