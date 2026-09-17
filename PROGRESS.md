@@ -60,3 +60,25 @@ precision and recall can be estimated together. It includes 50 top-ranked,
 high-quality reference groups, 25 from medium-quality groups, and 25 random
 unflagged records. Manual review labels are required before calculating
 validation metrics.
+
+## Script consolidation
+
+The active workflow is now limited to data preparation, price-alert
+detection/enrichment/ranking, analyst-review validation/evaluation, and the
+stratified validation sampler. One-time threshold and representative-sample
+tools are archived under `app/archive/`. Mileage and age-mileage tools are
+archived under `app/archive/blocked_mileage/` because the source data has
+constant annual mileage and zero mileage-group IQR. They are retained for
+provenance but are not active production steps.
+
+Current milestone findings:
+
+- 9,770 cleaned records processed.
+- 697 eligible price alerts: 350 below and 347 above the expected range.
+- Every alert has at least five comparable records; median reference-group
+  size is 17.
+- Top-100 analyst review: 79 useful alerts out of 83 evaluable alerts
+  (95.2% precision among top-ranked alerts).
+- Recall remains unmeasured for the top-100 alert-only review.
+- The 200-row stratified validation sample contains 100 flagged and 100
+  unflagged listings and requires manual labels before evaluation.
